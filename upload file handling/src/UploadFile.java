@@ -50,7 +50,7 @@ public class UploadFile {
 		if(!path.contains(".docx")) {
 			System.out.println(driver.findElement(By.className("bootbox-body")).getText());
 		}
-	
+		
 		driver.close();
 	}
 
